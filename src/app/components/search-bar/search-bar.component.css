@@ -1,0 +1,26 @@
+.wrapper {
+  /* background: white; */
+  display: flex;
+  padding: 0.5rem;
+  /* width: 145px; */
+  border-radius: 35px;
+  margin-top:50px;
+}
+
+.search {
+  border: 1px solid #c1c0c0;
+    /* border: none; */
+    height: 45px;
+    width: 20rem;
+    border-radius: 7px 0 0 7px;
+    padding: 10px;
+}
+
+button {
+  border: 1px solid #bbbbbb;
+    background: white;
+    color: #070400;
+    width: 3rem;
+    border-radius: 0 7px 7px 0px;
+}
+

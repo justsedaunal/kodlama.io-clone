@@ -1,0 +1,45 @@
+
+nav {
+  height:60px;
+}
+.background{
+  background-color: #134361;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.margin-right {
+  margin-right:auto;
+}
+
+.padding {
+  padding:1rem;
+}
+
+.color {
+  color:#fff;
+}
+
+.profile-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width:1000px) {
+
+  nav > ul {
+    display: none;
+  }
+
+}
+
+

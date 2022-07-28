@@ -1,0 +1,87 @@
+.row {
+  width: 100%;
+}
+
+.col{
+  width:33.33333%;
+}
+
+.card-flex {
+  display: flex;
+}
+
+
+.card-wrapper {
+margin: 2rem 2rem 2rem 0;
+border-radius:20px;
+/* border: 1px solid #8eb4cb; */
+
+}
+
+.width {
+  width: 100%;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.progress-bar-fill {
+  display: block;
+  height: 10px;
+  background-color: #134361;
+  border-radius: 3px;
+  transition: width 500ms ease-in-out;
+}
+
+.card-header-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+  padding:1rem;
+}
+
+.card-footer-wrapper {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+}
+
+.card-footer-left {
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+  padding:1rem;
+}
+
+.card-footer-left img {
+  border-radius: 50px;
+}
+
+.card-footer-right {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  padding:1rem;
+}
+
+.card-footer-right p:first-child {
+  margin-left: auto;
+  color: #134361;
+ font-weight: bold;
+}
+
+.card-wrapper:hover {
+  /* border-color: rgb(17, 47, 131);
+  border-width: 2px;
+  transition: width 3s; */
+  /* box-shadow: #659cef; */
+  box-shadow:  rgb(37, 102, 143) 0px 0px 0px 2px;
+}
